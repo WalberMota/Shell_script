@@ -1,5 +1,6 @@
 # Shell_script
-Pequenas rotinas em Shell Script para automatizar algumas tarefas no Linux.
+	A linha de comando é um dos muitos pontos fortes dos sistemas baseados em Linux.
+	Aqui você encontrará pequenas rotinas em Shell Script para automatizar algumas tarefas no Linux. Rotinas que desenvolvi a medida que estudava Shell Script.
 
 Conceito de Shell Script (https://pt.wikipedia.org/wiki/Shell_script)
 
