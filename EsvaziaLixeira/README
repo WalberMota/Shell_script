@@ -1,5 +1,5 @@
-##(pt-BR) script para esvaziar a lixeira.
+## (pt-BR) script para esvaziar a lixeira.
 
-##(EN) Script for empty Trash.
+## (EN) Script for empty Trash.
 
 em contrução...
