@@ -1,7 +1,4 @@
 #!/bin/zsh
-#rm -irvf files
-#rm -irvf info
-#rm -irvf expunged
 
 echo $(clear)
 echo
