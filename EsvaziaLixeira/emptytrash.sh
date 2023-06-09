@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-#Programa:
+#Programa: emptytrash.sh
 #Escrito por: Walber Mota
 #Linguagem: Shell Script
 #Data da Criação: 08/05/2023
