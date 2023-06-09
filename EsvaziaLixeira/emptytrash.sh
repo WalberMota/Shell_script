@@ -1,5 +1,15 @@
 #!/bin/zsh
 
+#Programa:
+#Escrito por: Walber Mota
+#Linguagem: Shell Script
+#Data da Criação: 08/05/2023
+#Version 01.02 
+#locale=en_US.UTF-8,Utf16=on,HugeFiles=on,64 bits,4 CPUs Intel(R) Core(TM)
+#i5-5200U CPU @ 2.20GHz (306D4)
+#Propósito:  Limpar o conteúdo da lixeira do Linux
+
+
 echo $(clear)
 echo
 sleep 1
