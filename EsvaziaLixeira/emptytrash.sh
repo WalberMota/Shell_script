@@ -48,6 +48,27 @@ read opt
 echo "   "
 if [ $opt -eq 1 ]; then
 
+if [ -d ~/.local/share/Trash/files ]; then
+	cd /home/preacher/.local/share/Trash
+	rm -irvf files
+	echo $(pwd)
+	ls
+fi
+
+if [ -d ~/.local/share/Trash/info ]; then
+	cd /home/preacher/.local/share/Trash
+	rm -irvf info
+	echo $(pwd)
+	ls
+fi
+
+if [ -d ~/.local/share/Trash/expunged ]; then
+	cd /home/preacher/.local/share/Trash
+	rm -irvf expunged
+	echo $(pwd)
+	ls
+fi
+
 	echo "					limpeza em andamento . . ."
 	sleep 1
 	echo "           "
