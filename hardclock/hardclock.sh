@@ -7,10 +7,10 @@
 # Autor: Walber Mota												#
 # Data : 16/12/2023													#
 #																	# 
-# Descrição: O script informa o modelo do processador, memória		#
-#			 disponível e espaço em disco.							#
+# Descrição: O script informa a hora do sistema operacional e do    #
+#			 hardware							                    #
 #																	#
-# Uso: ./notebook.sh												#
+# Uso: ./hardclock.sh												#
 #																	#
 #####################################################################
 
