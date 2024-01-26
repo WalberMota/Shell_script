@@ -25,8 +25,7 @@ CLKSOFT=$(date -R)
 
 clear
 echo "======================================================================================"
-echo "Relatório para o usuário $USER"
-echo "Data/Hora: $(date)"
+echo "Data/Hora do Sistema: $CLKSOFT"
 echo "======================================================================================"
 echo "Inicio do trabalho atual: $UPTIME"
 echo
