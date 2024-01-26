@@ -5,7 +5,7 @@
 # Nome: notebook.sh													#
 #																	#
 # Autor: Walber Mota												#
-# Data : 16/12/2023													#
+# Data : 25/01/2024													#
 #																	# 
 # Descrição: O script informa a hora do sistema operacional e do    #
 #			 hardware							                    #
