@@ -25,21 +25,6 @@ CLKSOFT=$(date -R)
 
 clear
 echo "======================================================================================"
-echo "Data/Hora do Sistema: $CLKSOFT"
+echo "Data/Hora do Sistema : $CLKSOFT"
+echo "Data/Hora do Hardware: $CLKHARD"
 echo "======================================================================================"
-echo "Inicio do trabalho atual: $UPTIME"
-echo
-echo "Versão do Kernel: $KERNEL"
-echo
-echo "CPUs:"
-echo "Quantidade de Cores: $CPUNO"
-echo "Modelo da CPU: $CPUMODEL"
-echo 
-echo "Memória Primária:"
-echo "$MEMTOTAL"
-echo
-echo "Memória Secundária:"
-echo "$FILESYS"
-echo
-echo "======================================================================================"
-
