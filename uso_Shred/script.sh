@@ -7,11 +7,12 @@
     O comando <shred> permite usar um arquivo lista como fazendo parte do meu script shell
     sendo útil para criar funções e bibliotecas
 
+    echo -n = aguarda a entrada na mesma linha.
     A resolução das variáveis pode ser feita com $<variável> ou ${<variável>}
 Comment
 
 source variaveis
-echo "Digite seu nome"
+echo -n "Digite seu nome"
 read nome
 echo "Olá $nome, tudo bem ?"
 echo "Bem vindo ao $LIVRO"
