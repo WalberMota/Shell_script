@@ -1,5 +1,11 @@
 #!/bin/bash
 
+<< 'Comentarios'
+poder susado function <nome_da_funcao>{} ou function <nome_da_funcao()>{}
+
+Comentarios
+
+
 echo "Mensagem fora de uma função"
 
 
