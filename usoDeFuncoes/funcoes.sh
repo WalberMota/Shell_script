@@ -2,6 +2,7 @@
 
 echo "Mensagemfora da função"
 
+
 function mensagem1
 {
     echo "Mensagem dentro da 1ª função"
