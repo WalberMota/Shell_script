@@ -6,3 +6,6 @@ nome=$1
 pais=$2
 
 echo "${nome} viajou para ${pais}"
+
+echo "${1} quer morar no(a) ${2}"
+
