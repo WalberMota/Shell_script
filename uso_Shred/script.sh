@@ -12,7 +12,7 @@
 Comment
 
 source variaveis
-echo -n "Digite seu nome"
+echo -n "Digite seu nome: "
 read nome
 echo "Olá $nome, tudo bem ?"
 echo "Bem vindo ao $LIVRO"
