@@ -19,6 +19,7 @@ function mensagem2()
     echo "Mensagem dentro da 2ª função"
 }
 
+# a chamada das funções deve ser feita depois que as funções já tiverem sido declaradas.
 mensagem1
 mensagem2
 
