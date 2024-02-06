@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Mensagemfora da função"
+echo "Mensagem fora de uma função"
 
 
 function mensagem1
