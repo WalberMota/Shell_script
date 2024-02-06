@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# alinha acima é usada para  especificar qual interpretador do shell GNU será utilizado
+
 # o comando shred permite usar um arquivo lista como fazendo parte do meu script shell
 # util para criar funções e bibliotecas
 source variaveis
