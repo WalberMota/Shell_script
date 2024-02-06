@@ -9,7 +9,7 @@ function mensagem1
 
 function mensagem2()
 {
-    echo "Mensagem dentroa da 2ª função"
+    echo "Mensagem dentro da 2ª função"
 }
 
 mensagem1
