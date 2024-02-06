@@ -1,7 +1,7 @@
 #!/bin/bash
 
 << 'Comentarios'
-poder susado function <nome_da_funcao>{} ou function <nome_da_funcao()>{}
+poder ser escrito function <nome_da_funcao>{} ou function <nome_da_funcao()>{}
 
 Comentarios
 
