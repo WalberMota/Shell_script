@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+# para executar use: ./argumentos.sh <argumento1> <argumento2>
 nome=$1
 pais=$2
 
