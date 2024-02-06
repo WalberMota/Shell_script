@@ -18,7 +18,7 @@ function mensagem2()
 }
 
 # a chamada das funções deve ser feita depois que as funções já tiverem sido declaradas.
-# ou obteremos o erro: command not found
+# as funções devem ser previamente definidas ou obteremos o erro: command not found
 mensagem1
 mensagem2
 
