@@ -5,9 +5,7 @@ poder ser escrito function <nome_da_funcao>{} ou function <nome_da_funcao()>{}
 
 Comentarios
 
-
 echo "Mensagem fora de uma função"
-
 
 function mensagem1
 {
@@ -20,6 +18,7 @@ function mensagem2()
 }
 
 # a chamada das funções deve ser feita depois que as funções já tiverem sido declaradas.
+# ou obteremos o erro: command not found
 mensagem1
 mensagem2
 
