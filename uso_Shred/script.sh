@@ -1,4 +1,6 @@
 #!/bin/bash
+# o comando shred permite usar um arquivo lista como fazendo parte do meu script shell
+# util para criar funções e bibliotecas
 source variaveis
 echo "Digite seu nome"
 read nome
