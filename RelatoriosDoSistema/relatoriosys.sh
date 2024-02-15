@@ -1,17 +1,17 @@
 #!/bin/bash
 
 #########################################################################
-#									                                    #
-# Nome: notebook.sh						                            	#
-#									                                    #
-# Autor: Walber Mota							                        #
-# Data : 16/12/2023 - Atualizado em 15/02/2024			            	#
-#									                                    # 
-# Descrição: O script informa o modelo do processador, memória	    	#
-#			 disponível e espaço em disco.			                    #
-#									                                    #
-# Uso: ./notebook.sh							                        #
-#									                                    #
+#									                                                      #
+# Nome: notebook.sh						                            	            #
+#									                                                      #
+# Autor: Walber Mota							                                      #
+# Data : 16/12/2023 - Atualizado em 15/02/2024			            	      #
+#									                                                      # 
+# Descrição: O script informa o modelo do processador, memória	    	  #
+#			 disponível e espaço em disco.			                              #
+#									                                                      #
+# Uso: ./notebook.sh							                                      #
+#									                                                      #
 #########################################################################
 
 KERNEL=$(uname -a |egrep "Linux debian"| cut -c1-27)
