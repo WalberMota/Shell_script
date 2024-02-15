@@ -5,7 +5,7 @@
 # Nome: notebook.sh						                            	#
 #									                                    #
 # Autor: Walber Mota							                        #
-# Data : 16/12/2023 - Atualizado em 15/02/203			            	#
+# Data : 16/12/2023 - Atualizado em 15/02/2024			            	#
 #									                                    # 
 # Descrição: O script informa o modelo do processador, memória	    	#
 #			 disponível e espaço em disco.			                    #
