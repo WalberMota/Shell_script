@@ -1,20 +1,19 @@
 #!/bin/bash
-#########################################################################
-#									                                                      #
-# Nome: notebook.sh						                            	            #
-#									                                                      #
-# Autor: Walber Mota							                                      #
-# Data : 16/12/2023 - Atualizado em 15/02/2024			            	      #
-#									                                                      # 
-# Descrição: O script informa o modelo do processador, memória	    	  #
-#			 disponível e espaço em disco.			                              #
-#									                                                      #
-# Uso: ./notebook.sh							                                      #
-#									                                                      #
-#########################################################################
-
+#################################################################
+#								                                #
+# Nome: notebook.sh					                            #
+#								                                #
+# Autor: Walber Mota						                    #
+# Data : 16/12/2023 - Atualizado em 20/05/2024			        #
+#								                                #
+# Descrição: O script informa o modelo do processador, memória,	#
+#	     espaço em disco, versão do SO, etc.                    #
+#								                                #
+# Uso: ./notebook.sh						                    #
+#								                                #
+#################################################################
 KERNEL=$(uname -a |egrep "Linux debian"| cut -c1-27)
-DISTRO=$(lsb_release -a | grep Description)
+DISTRO=$(lsb_release -a | grep Description |cut -c14-)
 USER=$(whoami)
 CPUNO=$(cat /proc/cpuinfo | grep "model name"|wc -l)
 CPUMODEL=$(cat /proc/cpuinfo | grep "model name"|head -n1|cut -c14-)
@@ -30,10 +29,10 @@ echo "Relatório para o usuário $USER"
 echo "Data/Hora: $(date)"
 echo "========================================================================"
 echo "Inicio do trabalho atual: $UPTIME"
-echo
+echo "========================================================================"
 echo "Versão do Kernel: $KERNEL"
 echo "Linux distribution: $DISTRO"
-echo "CPUs:"
+echo ""========================HARDWARE=======================================""
 echo "Quantidade de Cores: $CPUNO"
 echo "Modelo da CPU: $CPUMODEL"
 echo 
