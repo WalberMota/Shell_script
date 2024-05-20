@@ -14,6 +14,7 @@
 #########################################################################
 
 KERNEL=$(uname -a |egrep "Linux debian"| cut -c1-27)
+DISTRO=$(lsb_release -a | grep Description)
 USER=$(whoami)
 CPUNO=$(cat /proc/cpuinfo | grep "model name"|wc -l)
 CPUMODEL=$(cat /proc/cpuinfo | grep "model name"|head -n1|cut -c14-)
@@ -31,7 +32,7 @@ echo "========================================================================"
 echo "Inicio do trabalho atual: $UPTIME"
 echo
 echo "Versão do Kernel: $KERNEL"
-echo
+echo "Linux distribution: $DISTRO"
 echo "CPUs:"
 echo "Quantidade de Cores: $CPUNO"
 echo "Modelo da CPU: $CPUMODEL"
