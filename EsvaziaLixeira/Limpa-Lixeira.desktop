@@ -1,0 +1,24 @@
+#!/usr/bin/env ./Browser/execdesktop
+#
+# Este arquivo é um arquivo .desktop automodificável que pode ser executado a partir do shell.
+#
+# Execute './emptytrash.desktop' para executar a partir do Shell
+#
+# Quando invocado a partir do shell, este arquivo deve estar sempre em um diretório raiz do programa.
+# Quando executado a partir do gerenciador de arquivos ou da interface gráfica do usuário (GUI) do desktop, ele é relocável.
+#
+
+
+[Desktop Entry]
+Type=Application
+Name=Limpa Lixeira
+GenericName=Limpador da Lixeira
+Comment=Limpador de lixeira em Shell Script
+Categories=Utility;
+Exec=sh "/home/preacher/Apps/./emptytrash.sh"
+# emptytrash-ExecShell=./emptytrash.sh
+StartupNotify=false
+Icon=edit-clear
+Path="/home/preacher/Apps/"
+Terminal=true
+

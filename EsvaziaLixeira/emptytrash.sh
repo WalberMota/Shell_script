@@ -1,4 +1,4 @@
-#!/bin/zsh
+#! /bin/bash
 
 #Programa: emptytrash.sh
 #Escrito por: Walber Mota
